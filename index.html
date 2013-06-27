@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Learn To Ruby</title>
+		<meta name="description" content="Learn to Ruby">
+		<meta name="author" content="Jonathan Leung">
+
+		<meta charset="utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+		<div class="slides">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<section>
+				<h1>Learn to Ruby <small style="font-size:60px;">[beta]</small></h1>
+				<p>
+					<small>Created by <a href="http://hakim.se">Jonathan Leung</a> </small>
+				</p>
+			</section>
+
+			<section>
+				<h2>Lets Installing Stuffs!</h2>
+				<ol>
+					<li>Install Sublime Text 2 | <a target="_blank" href="http://www.sublimetext.com/2">link</a></li>
+					<li>Or here</li>
+					<li>Or here</li>
+					<li>Or here</li>
+				</ul>
+			</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			var s = null;
+			var _s = "13723647528526025006";
+
+			var notesDependency = { src: 'plugin/multiplex/client.js', async: true }
+			if (s != null) {
+				notesDependency = { src: 'plugin/notes-server/client.js', async: true }
+			}
+
+			debugger
+
+			Reveal.initialize({
+
+				multiplex: {
+					secret: s,
+					id: 'a66a90c611af539e',
+					url: 'revealjs.jit.su:80'
+				},
+
+				controls: true,
+				progress: true,
+				history: true,
+				center: false,
+				rollingLinks: false,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: 'none', // Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js', async: true },
+					{ src: 'plugin/multiplex/master.js', async: true },
+					{ src: 'plugin/multiplex/client.js', async: true },
+					notesDependency
+
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+	</body>
+</html>
