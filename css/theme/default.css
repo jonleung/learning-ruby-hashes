@@ -62,7 +62,8 @@ body {
  *********************************************/
 .reveal a:not(.image) {
   color: #13daec;
-  text-decoration: none;
+  /*text-decoration: none;*/
+  text-decoration-color: #13daec;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   -ms-transition: color .15s ease;

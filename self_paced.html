@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Presenter Driven</title>
+		<title>Self Paced</title>
 		<meta name="description" content="Learn to Ruby">
 		<meta name="author" content="Jonathan Leung">
 
@@ -295,11 +295,13 @@ h = {0 => "cero", :hello=>"hola", "thank you"=>"gracies"}
 
 				<pre class="fragment"><code data-trim contenteditable># Shortcut Notation</code></pre>
 
-				<pre class="fragment"><code data-trim contenteditable>{:some_key => "some value"} == {some_key: "some value"</code></pre>
+				<pre class="fragment"><code data-trim contenteditable>{:some_key => "some value"} == {some_key: "some value}"</code></pre>
 			</section>
 
 			<section>
-				<p>External APIS: Facebook Graph | [UrlOpen!]</a></p>
+				<p>Facebook Graph</a></p>
+				<pre class="fragment"><code data-trim contenteditable>[UrlOpen!]</code></pre>
+				<pre class="fragment"><code data-trim contenteditable>Try getting your own at graph.facebook.com/YOUR_USER_NAME</code></pre>
 				<pre class="fragment"><code data-trim contenteditable>
 user_data = {
   id: "845160715",
@@ -369,7 +371,7 @@ user_data = {
 
 
 
-		  <section>
+ 		  <section>
 		  	<h2>
 		  		Problem 2: Filled with <code>nil</code>
 		  	</h2>
@@ -382,18 +384,6 @@ user_data = {
 # => [nil, nil, "charger", nil, nil, nil, nil, nil, nil, nil, nil, nil, 
 nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, "wallet", nil, nil, nil]		  	
 		  	</code></pre>
-				<pre class="fragment"><code data-trim contenteditable>
-user_data = {
-  id: "845160715",
-  name: "Jonathan Leung",
-  first_name: "Jonathan",
-  last_name: "Leung",
-  username: "FriendJonathanLeung",
-  gender: "male",
-  locale: "en_US"
-}
-				</code></pre>
-
 
 		  </section>
 
@@ -482,27 +472,10 @@ user_data = {
 		  		^_^
 		  		<br>
 		  		<br>
-		  		Questions!?
+		  		Try doing this on your
 		  	</h1>
 		  </section>
 
-		  	<section>
-		  		<h1>Sometimes you want arrays</h1>
-		  		<pre class=""><code data-trim contenteditable># Cafeteria Line</code></pre>
-		  		<pre class="fragment"><code data-trim contenteditable>line = ["Mark Zuckerberg", "Chris Hughes", "Dustin Moskovitz"]</code></pre>
-		  		<pre class="fragment"><code data-trim contenteditable>line[0]</code></pre>
-		  		<pre class="fragment"><code data-trim contenteditable># => "Mark Zuckerberg"</code></pre>
-		  		<pre class="fragment"><code data-trim contenteditable>line[1]</code></pre>
-		  		<pre class="fragment"><code data-trim contenteditable># => "Chris Hughes"</code></pre>
-		  		<pre class="fragment"><code data-trim contenteditable># Zuckerberg pays for his meal, and leaves the line</code></pre>
-		  		<pre class="fragment"><code data-trim contenteditable>line.delete_at(0)</code></pre>
-		  		<pre class="fragment"><code data-trim contenteditable>line</code></pre>
-		  		<pre class="fragment"><code data-trim contenteditable>["Chris Hughes", "Dustin Moskovitz"]</code></pre>
-		  		<pre class="fragment"><code data-trim contenteditable>line[0]</code></pre>
-		  		<pre class="fragment"><code data-trim contenteditable># => "Chris Hughes"</code></pre>
-		    </section>
-
-		   <section>
 		   	<h1>
 		   		When should I use an Array or a Hash?
 		   	</h1>
@@ -593,7 +566,7 @@ user_data = {
 
 				multiplex: {
 					secret: s,
-					id: 'a66a90c611af539e',
+					id: '', //a66a90c611af539e
 					url: 'revealjs.jit.su:80'
 				},
 
